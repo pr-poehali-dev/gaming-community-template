@@ -11,13 +11,27 @@ const Hero = () => {
       <div className="absolute bottom-20 right-20 w-40 h-40 bg-neon-cyan/20 rounded-full blur-2xl" />
 
       <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
-        <h1 className="font-orbitron text-6xl md:text-8xl font-black text-transparent bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-green bg-clip-text mb-6 cyberpunk-glow">
-          CYBER ARENA
-        </h1>
+        <div className="flex flex-col items-center mb-6">
+          <div className="relative mb-4">
+            <Icon
+              name="Zap"
+              size={80}
+              className="text-neon-purple cyberpunk-glow"
+            />
+            <Icon
+              name="Shield"
+              size={48}
+              className="absolute top-4 left-4 text-neon-cyan cyberpunk-glow"
+            />
+          </div>
+          <h1 className="font-orbitron text-6xl md:text-8xl font-black text-transparent bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-green bg-clip-text cyberpunk-glow">
+            CYBER ARENA
+          </h1>
+        </div>
 
         <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto font-inter">
-          Киберспортивное сообщество будущего. Турниры, стриминг, обучение и
-          неограниченные возможности.
+          Элитное киберспортивное сообщество. Профессиональные турниры, обучение
+          от про-игроков и путь к киберспортивной славе.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
