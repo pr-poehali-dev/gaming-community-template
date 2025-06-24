@@ -25,13 +25,13 @@ const Hero = () => {
             />
           </div>
           <h1 className="font-orbitron text-6xl md:text-8xl font-black text-transparent bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-green bg-clip-text cyberpunk-glow">
-            CYBER ARENA
+            Essence of Oblivion
           </h1>
         </div>
 
         <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto font-inter">
-          Элитное киберспортивное сообщество. Профессиональные турниры, обучение
-          от про-игроков и путь к киберспортивной славе.
+          Погрузитесь в мир забвения. Откройте тайны киберпространства, станьте
+          частью элитного сообщества и познайте суть цифрового бытия.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">

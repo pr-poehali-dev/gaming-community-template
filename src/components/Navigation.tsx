@@ -14,7 +14,7 @@ const Navigation = () => {
                 className="absolute top-1 left-1 text-neon-cyan"
               />
             </div>
-            <span>CYBER ARENA</span>
+            <span>Essence of Oblivion</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
