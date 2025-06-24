@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Vorcas+Regular:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -83,7 +82,8 @@
   }
 
   .font-vorcas {
-    font-family: "Vorcas Regular", monospace;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
   }
 
   .font-inter {

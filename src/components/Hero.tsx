@@ -24,7 +24,7 @@ const Hero = () => {
               className="absolute top-4 left-4 text-neon-cyan cyberpunk-glow"
             />
           </div>
-          <h1 className="font-vorcas text-6xl md:text-8xl font-black text-transparent bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-green bg-clip-text cyberpunk-glow">
+          <h1 className="font-vorcas text-6xl md:text-8xl font-medium text-transparent bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-green bg-clip-text cyberpunk-glow">
             Essence of Oblivion
           </h1>
         </div>

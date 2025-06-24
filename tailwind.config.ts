@@ -63,6 +63,7 @@ export default {
       fontFamily: {
         orbitron: ["Orbitron", "monospace"],
         inter: ["Inter", "sans-serif"],
+        vorcas: ["Rajdhani", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
