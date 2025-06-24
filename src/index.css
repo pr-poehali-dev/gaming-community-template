@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vorcas+Regular:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -78,7 +79,11 @@
 
 @layer components {
   .font-orbitron {
-    font-family: "Orbitron", monospace;
+    font-family: "Vorcas Regular", monospace;
+  }
+
+  .font-vorcas {
+    font-family: "Vorcas Regular", monospace;
   }
 
   .font-inter {

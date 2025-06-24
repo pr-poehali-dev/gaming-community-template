@@ -5,7 +5,7 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-darker-bg/90 backdrop-blur-md border-b border-neon-cyan/30">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3 font-orbitron text-2xl font-bold text-neon-cyan cyberpunk-glow">
+          <div className="flex items-center space-x-3 font-vorcas text-2xl font-bold text-neon-cyan cyberpunk-glow">
             <div className="relative">
               <Icon name="Zap" size={32} className="text-neon-purple" />
               <Icon
